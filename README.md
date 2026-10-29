@@ -30,6 +30,7 @@ Python · Jupyter Notebook · Hugging Face Transformers · Hugging Face Datasets
 ---
 
 ```mermaid
+
 flowchart TD
     A["Setup & Configuration"] --> B["Load GLUE QQP Dataset"]
     B --> C["Explore Train & Validation Data"]
@@ -55,7 +56,4 @@ flowchart TD
     O --> P["Error Analysis: FP & FN"]
     P --> Q["Export Results & Conclusions"]
 
-    style B fill:#dbeafe,color:#1e3a8a,stroke:#2563eb
-    style M fill:#dcfce7,color:#166534,stroke:#16a34a
-    style Q fill:#fef3c7,color:#92400e,stroke:#d97706
 ```
